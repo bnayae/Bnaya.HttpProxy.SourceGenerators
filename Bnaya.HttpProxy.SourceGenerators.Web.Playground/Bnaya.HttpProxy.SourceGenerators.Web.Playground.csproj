@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.9" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Bnaya.HttpProxy.SourceGenerators.Abstractions.Playground\Bnaya.HttpProxy.SourceGenerators.Abstractions.Playground.csproj" />
+	  <ProjectReference Include="..\Bnaya.HttpProxy.SourceGenerators.Abstractions\Bnaya.HttpProxy.SourceGenerators.Abstractions.csproj" />
+	</ItemGroup>
+
+</Project>
